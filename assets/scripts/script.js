@@ -77,6 +77,10 @@ buttonClaim.addEventListener('click', () => {
         firstName.value = '';
         password.value = '';
         email.value = '';
+        lastName.placeholder = "Last Name";
+        firstName.placeholder = "First Name";
+        email.placeholder = "Email Address";
+        password.placeholder = "Password";
 
     }
 

@@ -21,11 +21,15 @@
         <div class="forma">
             <div class="tryit"><strong>Try it free 7 days</strong> then $20/mo. thereafter</div>
             <div class="claim">
-                <form class="formstyle">
+                <form class="formstyle" id="formclaim">
                     <input type="text" name="firstname" id="firstname" placeholder="First Name"><br>
+                    <div id="warningfirst" class="warning"></div>
                     <input type="text" name="lastname" id="lastname" placeholder="Last Name"><br>
+                    <div id="warninglast" class="warning"></div>
                     <input type="text" name="email" id="email" placeholder="Email Address"><br>
+                    <div id="warningemail" class="warning"></div>
                     <input type="password" name="password" id="password" placeholder="Password"><br>
+                    <div id="warningpassword" class="warning"></div>
                     <button id="claimfree">Claim your free trial </button>
                 </form>
                 <div class="agree"> By clicking the button, you are agreeing to our <span>Terms and Services</span></div>
@@ -37,6 +41,8 @@
 
 
     <footer class="footer"> Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by Natallia Harmon.</footer>
+
+    <script src="assets/scripts/script.js"></script>
 </body>
 
 </html>

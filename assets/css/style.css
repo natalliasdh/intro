@@ -170,3 +170,25 @@ footer a {
     text-align: right;
     font-weight: 500;
 }
+
+.excl {
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+    background-color: #FF7979;
+    color: white;
+    position: absolute;
+    top: 28px;
+    right: 10px;
+}
+
+.first {
+    position: relative;
+}
+
+#exclfirst,
+#excllast,
+#exclemail,
+#exclpassword {
+    display: none;
+}
